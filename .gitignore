@@ -1,4 +1,5 @@
 /bin
 /node_modules
 index.backup.pug
+index.backup2.pug
 .env

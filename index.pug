@@ -34,12 +34,12 @@ html
                   span(class="icon-bar")
                     
                 a(class="navbar-brand", href="#") 
-                  img(src="images/logo.png", class="img-responsive", style="width: 140px; margin-top: -16px;")
+                  img(src="images/logo.png", class="img-responsive", style="margin-top: -16px;")
                 
               div(id="myNavbar", class="collapse navbar-collapse navbar-right")
                 ul(class="nav navbar-nav")
                   li <a href="#banner">Home</a>
-                  li <a href="#service">Service</a>
+                  li <a href="#service">Services</a>
                   li <a href="#contact">Contact</a>
         
         div(class="d-flex justify-content-center")  
@@ -57,14 +57,14 @@ html
     section(id="service", class="section-padding")
       div(class="container")
         div(class="row")
-          div(class="col-md-4 col-sm-4")
-            h2(class="ser-title") Our Services
+          div(class="col-md-12 col-sm-12", style="margin-bottom: 10%;")
+            h2(class="ser-title") Services
             hr(class="botm-line")
             p These are our services...blah..blah<br>..blah..consectetur adipisicing elit, sed<br> do eiusmod tempor incididunt ut labore et dolore <br>magna aliqua. Ut enim ad minim veniam, quis <br>nostrud exercitation ullamco laboris cillum.
-
-          
-          div(class="col-md-4 col-sm-4")
-            <!-- service -->
+            
+        <!-- plumbing -->    
+        div(class="row")
+          div(class="col-md-4 col-xs-6")
             div(class="service-info")
               div(class="icon")
                 img(src="https://cdn2.iconfinder.com/data/icons/tools/32/tools-wrench-pipe-64.png")
@@ -76,23 +76,9 @@ html
                   - faucets<br>
                   - toilets<br>
                   - waterheater<br>
-                
-            <!-- electrical -->
-            div(class="service-info")
-              div(class="icon")
-                img(src="https://cdn0.iconfinder.com/data/icons/geometry-1/512/electricity-electrical-plug-64.png")
-              div(class="icon-info")
-                h4 Electrical
-                p.
-                  - light fixtures<br> 
-                  - microwave installation<br> 
-                  - outlets/lightswitch replacement<br> 
-                  - celling fans<br>
-                  - troubleshooting<br> 
-                  - G.F.C.I.<br>
           
-          div(class="col-md-4 col-sm-4")
-            <!-- flooring -->
+          <!-- flooring -->      
+          div(class="col-md-4 col-xs-6")
             div(class="service-info")
               div(class="icon")
                 img(src="https://cdn3.iconfinder.com/data/icons/100-popular-requests-fill/70/icon_sets_100_popular_requests_fill_iconfinder-74-64.png")
@@ -100,8 +86,9 @@ html
                 h4 Flooring
                 p.
                   - laminate<br>
-                
-            <!-- painting -->
+          
+          <!-- painting -->
+          div(class="col-md-4 col-xs-6")
             div(class="service-info")
               div(class="icon")
                 img(src="https://cdn1.iconfinder.com/data/icons/building-outline-1/512/paint_roller-64.png")
@@ -110,9 +97,23 @@ html
                 p.
                   - full paint<br>
                   - touchup<br>
-                   
-          div(class="col-md-4 col-sm-4")
-            <!-- tilework -->
+          
+          <!-- electrical -->        
+          div(class="col-md-4 col-xs-6")
+            div(class="icon")
+              img(src="https://cdn0.iconfinder.com/data/icons/geometry-1/512/electricity-electrical-plug-64.png")
+            div(class="icon-info")
+              h4 Electrical
+              p.
+                - light fixtures<br> 
+                - microwave installation<br> 
+                - outlets/lightswitch replacement<br> 
+                - celling fans<br>
+                - troubleshooting<br> 
+                - G.F.C.I.<br>
+          
+          <!-- tilework -->      
+          div(class="col-md-4 col-xs-6")
             div(class="service-info")
               div(class="icon")
                 img(src="https://cdn2.iconfinder.com/data/icons/100-popular-requests-1/70/icon_sets_100_popular_requests_outline_iconfinder-88-64.png")
@@ -122,28 +123,18 @@ html
                   - floor<br>
                   - backsplash<br>
                   - tub surround<br>
-                
-          div(class="col-md-4 col-sm-4")
-            <!-- door -->
+                  
+          <!-- drywall -->  
+          div(class="col-md-4 col-xs-6")
             div(class="service-info")
               div(class="icon")
                 img(src="https://cdn2.iconfinder.com/data/icons/budicon-environment-building-2/16/9-interior_-_door-64.png")
               div(class="icon-info")
-                h4 Door
+                h4 Door/Drywall
                 p.
                   - installation<br>
                   - repair<br>
-                
-          div(class="col-md-4 col-sm-4")
-            <!-- drywall -->
-            div(class="service-info")
-              div(class="icon")
-                img(src="https://cdn0.iconfinder.com/data/icons/elasto-building/26/02-BUILDING-READY_drywall-64.png")
-              div(class="icon-info")
-                h4 Drywall
-                p.
-                  - installation<br>
-                  - repair<br>
+
                 
     <!-- about -->            
     section(id="cta-2", class="section-padding")
@@ -155,7 +146,7 @@ html
           div(class="col-md-4 col-sm-5")
             p We strive to...blah..blah..blah.. text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
             p(class="text-right text-primary")
-              i — Medilap Healthcare
+              i — Darryl McCulley
           div(class="col-md-2")
     
     <!-- portfolio -->
@@ -171,22 +162,12 @@ html
     <!-- footer -->            
     footer(id="footer")
       div(class="container")
-        div(class="row", style="padding-top:2%; padding-bottom:2%")
-          div(class="col-md-4 col-sm-4", align="center")
-            h4(style="padding-top:12%;") DM <sub>Remodel & Renovations</sub>
-            
-          
-          div(class="d-flex flex-column col-md-4 col-sm-4")
-            div
-              h4(style="padding-left:18%;") Quick Links
-            div(id="contact", class="info-sec")
-              ul(class="quick-info")
-                li(style="font-size:12px;") <a href="#banner">Home</a>
-                li(style="font-size:12px;") <a href="#service">Service</a>
-                li(style="font-size:12px;") <a href="#contact">Contact</a>
+        div(class="d-flex flex-row justify-content-between", style="padding-top:2%; padding-bottom:2%")
+          div(class="p-2", align="center")
+            img(src="images/logo.png", class="img-responsive", style="")
+
                 
-                
-          div(class="d-flex flex-column col-md-4 col-sm-4")
+          div(id="contact", class="p-2 flex-column")
             div
               h4(style="padding-left:18%;") Contact
             div(class="info-sec")

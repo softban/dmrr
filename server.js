@@ -18,8 +18,8 @@ const server = express()
   .use((req, res) => res.render(path.join(__dirname, 'index.pug'), {
       title: "openCluster",
 
-      portfolio_active: image("/images")[0],
-      portfolio: image("/images")
+      portfolio_active: image("/images/portfolio")[0],
+      portfolio: image("/images/portfolio")
       /*,
       bath_active: image("/images/bath")[0],
       bath_pictures: image("/images/bath"),
